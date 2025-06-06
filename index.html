@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Chosen Palette: Warm Neutrals & Deep Blue (Primary: #F8F9FA, Text: #2D3748, Headers: #4A5568, Accents: #3182CE, #2563EB, #EF4444, #10B981, #93C5FD, #BFDBFE) -->
-    <!-- Application Structure Plan: The application is structured as a single-page interactive dashboard with a fixed sidebar for thematic navigation. This non-linear approach allows users to explore concepts at their own pace, rather than being forced through a linear document. Each main section (Microeconomics, Macroeconomics, Economic History, etc.) is further broken down into sub-sections corresponding to core economic principles and areas of interest. For each principle, a concise explanation is provided, followed by interactive "Learn More" toggles that reveal detailed explanations, real-world case studies, historical context, and practical implications. Charts (Chart.js) are used to visualize data for relevant quantitative concepts. A dedicated "Key Concepts Glossary" section provides quick definitions. This modular and interactive design enhances usability by breaking down dense information into manageable, explorable chunks and directly addressing understandability through layered detail, historical anecdotes, geopolitical connections, and glossary support. -->
+    <!-- Application Structure Plan: The application is structured as a single-page interactive dashboard with a fixed sidebar for thematic navigation. This non-linear approach allows users to explore concepts at their own pace, rather than being forced through a linear document. Each main section (Microeconomics, Macroeconomics, Economic History, etc.) is further broken down into sub-sections corresponding to core economic principles and areas of interest. For each principle, a concise explanation is provided, with detailed explanations, real-world case studies, historical context, and practical implications directly visible (toggles permanently expanded). Charts (Chart.js) are used to visualize data for relevant quantitative concepts. A dedicated "Key Concepts Glossary" section provides quick definitions. This modular and interactive design enhances usability by breaking down dense information into manageable, explorable chunks and directly addressing understandability through layered detail, historical anecdotes, geopolitical connections, and glossary support. -->
     <!-- Visualization & Content Choices: 
         - All textual content is synthesized from foundational economic knowledge and the "Economics for Citizen, Investor_.pdf" document, expanded and clarified for comprehensive understanding across historical, geopolitical, and investment dimensions.
-        - Scarcity & Opportunity Cost: Goal=Inform/Compare. A Bar Chart (Chart.js) illustrates the long-term impact of small choices (opportunity cost). "Learn More" toggles embed detailed explanations, case studies (PS5 Shortage, Bitcoin Pizza, Lost Crypto Wallet).
-        - Supply & Demand: Goal=Show Relationship. A Line Chart (Chart.js) visually represents the curves and equilibrium. "Learn More" reveals detailed factors and the Hand Sanitizer case study.
-        - Incentives, Utility Maximization, Profit Maximization: Goal=Inform. Detailed textual explanations are presented, with "Learn More" toggles for case studies/examples (Amazon HQ2, Smartphone Purchase, Toyota Lean Manufacturing).
+        - Scarcity & Opportunity Cost: Goal=Inform/Compare. A Bar Chart (Chart.js) illustrates the long-term impact of small choices (opportunity cost). Detailed explanations and case studies (PS5 Shortage, Bitcoin Pizza, Lost Crypto Wallet) are now directly visible.
+        - Supply & Demand: Goal=Show Relationship. A Line Chart (Chart.js) visually represents the curves and equilibrium. Detailed factors and the Hand Sanitizer case study are directly visible.
+        - Incentives, Utility Maximization, Profit Maximization: Goal=Inform. Detailed textual explanations are presented, with case studies/examples (Amazon HQ2, Smartphone Purchase, Toyota Lean Manufacturing) directly visible.
         - Market Structures: Goal=Organize/Compare. An interactive HTML/CSS table with clickable rows allows users to reveal detailed characteristics and relevant case studies (Google Search Dominance).
-        - Measuring Economic Activity (GDP, Inflation, Unemployment): Goal=Inform/Change. Line charts (Chart.js) illustrate Nominal vs. Real GDP and the components of CPI. "Learn More" sections provide detailed explanations and case studies (China's Growth, Weimar Germany Hyperinflation, UK Coal Mining).
-        - Aggregate Demand & Aggregate Supply: Goal=Inform/Show Relationship. Textual explanation with a "Learn More" toggle for factors and importance.
+        - Measuring Economic Activity (GDP, Inflation, Unemployment): Goal=Inform/Change. Line charts (Chart.js) illustrate Nominal vs. Real GDP and the components of CPI. Detailed explanations and case studies (China's Growth, Weimar Germany Hyperinflation, UK Coal Mining) are directly visible.
+        - Aggregate Demand & Aggregate Supply: Goal=Inform/Show Relationship. Textual explanation with factors and importance directly visible.
         - Business Cycle: Goal=Show Change/Process. An interactive HTML/CSS diagram with clickable phases, each revealing detailed characteristics and the 2008 Financial Crisis case study.
-        - Fiscal & Monetary Policy: Goal=Organize/Inform. A tabbed interface (HTML/CSS/JS) cleanly separates the two policies, with "Learn More" toggles for specific tools and case studies (US CARES Act, Fed QE).
-        - Economic History: Goal=Inform/Chronicle. New section with sub-sections for Evolution of Economic Thought (Mercantilism, Classical, Marxism, Keynesianism, Monetarism) and Major Economic Events (Great Depression, Oil Crises, GFC, COVID-19), each using "Learn More" for detail and impact.
-        - International Trade & Exchange Rates: Goal=Inform/Illustrate. Detailed textual explanations with "Learn More" toggles for case studies (US-China Trade War, Swiss Franc Surge).
-        - Balance of Payments & International Institutions: Goal=Inform/Organize. New sub-sections under Global Economy using "Learn More" for detail.
-        - Economics of Finance and Investments: Goal=Inform/Educate. New section covering Financial Markets, Valuation, Risk/Return, Behavioral Economics, and Alternative Investments, using "Learn More" for deeper dives.
-        - Geopolitics and Economic Strategy: Goal=Inform/Connect. New section covering Resource Economics, Development Economics, Economic Sanctions, New Economic Powers, and Tech's Geopolitical Impact, using "Learn More" for analysis and case studies.
-        - Speculating Future Trends: Goal=Inform/Forecast. New section covering Demographic Shifts, Climate Change Economics, Future of Work, Global Debt, CBDCs/Blockchain, and Deglobalization/Reglobalization, using "Learn More" for potential implications.
+        - Fiscal & Monetary Policy: Goal=Organize/Inform. A tabbed interface (HTML/CSS/JS) cleanly separates the two policies, with specific tools and case studies (US CARES Act, Fed QE) directly visible.
+        - Economic History: Goal=Inform/Chronicle. New section with sub-sections for Evolution of Economic Thought (Mercantilism, Classical, Marxism, Keynesianism, Monetarism) and Major Economic Events (Great Depression, Oil Crises, GFC, COVID-19), with details and impacts directly visible.
+        - International Trade & Exchange Rates: Goal=Inform/Illustrate. Detailed textual explanations with case studies (US-China Trade War, Swiss Franc Surge) directly visible.
+        - Balance of Payments & International Institutions: Goal=Inform/Organize. New sub-sections under Global Economy with details directly visible.
+        - Economics of Finance and Investments: Goal=Inform/Educate. New section covering Financial Markets, Valuation, Risk/Return, Behavioral Economics, and Alternative Investments, with details directly visible.
+        - Geopolitics and Economic Strategy: Goal=Inform/Connect. New section covering Resource Economics, Development Economics, Economic Sanctions, New Economic Powers, and Tech's Geopolitical Impact, with analysis and case studies directly visible.
+        - Speculating Future Trends: Goal=Inform/Forecast. New section covering Demographic Shifts, Climate Change Economics, Future of Work, Global Debt, CBDCs/Blockchain, and Deglobalization/Reglobalization, with potential implications directly visible.
         - Key Concepts Glossary: Goal=Inform/Reference. An interactive list where clicking a term reveals its definition.
     -->
     <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
@@ -55,16 +55,18 @@
             background-color: #EBF8FF;
             border-left: 4px solid #3182CE;
         }
+        /* Make learn-more-content permanently open */
         .learn-more-content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+            max-height: 2000px !important; /* Large enough to accommodate all content */
+            overflow: visible !important; /* Allow content to be fully visible */
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
         }
-        .learn-more-content.open {
-            max-height: 2000px; /* Sufficiently large to show expanded content */
-            padding-top: 1rem;
-            padding-bottom: 1rem;
+        /* Hide the toggle buttons */
+        .learn-more-toggle {
+            display: none !important;
         }
+
         .nav-link.active {
             background-color: #2D3748;
             color: white;
@@ -131,10 +133,7 @@
                 <div class="bg-white p-6 rounded-xl shadow-lg mt-8">
                     <h3 class="font-header text-3xl font-semibold mb-3">Understanding the Economic Systems</h3>
                     <p class="text-gray-600 mb-4">Every society organizes its production and distribution of goods and services through an economic system. Most real-world economies are a blend, operating along a spectrum from pure capitalism to pure socialism.</p>
-                    <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-blue-600 hover:text-blue-800">
-                        ▼ Learn More & Case Study (Mixed Economies)
-                    </button>
-                    <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300">
+                    <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300 open">
                         <h4 class="font-semibold text-gray-800">Capitalism, Socialism & Mixed Economies</h4>
                         <p class="text-sm text-gray-700 mb-3">**Capitalism** is characterized by private ownership of capital assets, driven by the "profit motive," with prices determined by supply and demand in free markets. It fosters innovation and growth but can lead to inequality. **Socialism** advocates for collective ownership of production means, aiming for equitable distribution, often with central planning and robust welfare programs. Challenges include reduced innovation incentives and bureaucratic inefficiencies. Most nations, including the United States, operate as a **Mixed Economy**, combining private markets with government intervention (regulation, social services) to balance efficiency and equity.</p>
                         <h4 class="font-semibold text-gray-800 mt-2">Case Study: Sweden's Mixed Economy</h4>
@@ -237,10 +236,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Scarcity and Choice: The Core Problem</h3>
                         <p class="text-gray-600 mb-4">At the heart of economics is the fundamental tension between our unlimited wants and the limited resources available to satisfy them. This "scarcity" forces individuals, businesses, and governments to make choices about how to allocate their finite resources.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-blue-600 hover:text-blue-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300">
+                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300 open">
                             <p class="text-sm text-gray-700 mb-3">Resources aren't just tangible assets like oil; they also include intangible elements such as time, money, and individual abilities. Anything desired that cannot be achieved effortlessly is considered scarce. This leads to prices rising when resources are limited and influences consumer behavior through the "fear of missing out" (FOMO).</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: The PlayStation 5 Shortage (2020-2022)</h4>
                             <p class="text-sm text-gray-700">When Sony's PlayStation 5 console launched, demand far outstripped supply for nearly two years. Despite a high price, consumers faced extreme difficulty finding consoles, often resorting to paying inflated prices from resellers. This phenomenon perfectly illustrated scarcity: limited production capacity met overwhelming consumer desire, driving up perceived value and prices, and creating significant "fear of missing out" among eager buyers.</p>
@@ -255,10 +251,7 @@
                             <canvas id="opportunityCostChart"></canvas>
                         </div>
                         <p class="text-center text-xs text-gray-500 mt-2">Future value based on a hypothetical 5% annual return on consistent investment.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-blue-600 hover:text-blue-800">
-                            ▼ Learn More & Anecdote
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300">
+                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300 open">
                             <p class="text-sm text-gray-700 mb-3">This principle applies universally, from individual daily choices (e.g., choosing to study instead of watching TV) to complex business and governmental strategies. The implications extend significantly into long-term financial well-being, particularly through the power of compounding. Small daily expenditures, when viewed through opportunity cost, can reveal substantial foregone future wealth.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Anecdote: The Bitcoin Pizza</h4>
                             <p class="text-sm text-gray-700">In 2010, a developer paid 10,000 bitcoins for two pizzas. At the time, this seemed like a simple transaction. However, as of August 2024, those bitcoins were worth over $690 million. This famous story is an extreme but powerful reminder of the immense potential value lost when choosing immediate consumption over long-term investment.</p>
@@ -274,10 +267,7 @@
                         <div class="chart-container">
                             <canvas id="supplyDemandChart"></canvas>
                         </div>
-                         <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-blue-600 hover:text-blue-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300">
+                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300 open">
                             <p class="text-sm text-gray-700 mb-3">The **Law of Demand** states that as price rises, quantity demanded falls. The **Law of Supply** states that as price rises, quantity supplied rises. While equilibrium is ideal, markets constantly shift due to factors like consumer income, preferences, production costs, and government intervention. Understanding these dynamics is crucial for anticipating market movements.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: Hand Sanitizer Boom of 2020</h4>
                             <p class="text-sm text-gray-700">At the onset of the COVID-19 pandemic, demand for hand sanitizer surged dramatically. Supply, initially limited, struggled to keep up. This imbalance led to massive price increases and empty shelves. As production ramped up and demand stabilized, prices eventually returned to normal, a classic demonstration of supply and demand dynamics.</p>
@@ -288,10 +278,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Elasticity: Responsiveness in Markets</h3>
                         <p class="text-gray-600 mb-4">Elasticity measures how responsive quantity demanded or supplied is to a change in one of its determinants, such as price or income. It helps understand market dynamics beyond simple shifts.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-blue-600 hover:text-blue-800">
-                            ▼ Learn More & Types
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300">
+                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Price Elasticity of Demand (PED)** measures how much quantity demanded responds to a price change. If PED > 1, demand is elastic (e.g., luxury goods); if PED < 1, demand is inelastic (e.g., essential medicines). **Income Elasticity of Demand (YED)** measures how much quantity demanded responds to income change (normal vs. inferior goods). **Cross-Price Elasticity of Demand (CPED)** measures how much quantity demanded of one good responds to a price change in another (substitutes vs. complements). **Price Elasticity of Supply (PES)** measures how much quantity supplied responds to a price change.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Understanding elasticity is crucial for investors. Companies selling products with inelastic demand (e.g., utilities, basic food) tend to be more stable during economic downturns as price changes affect demand less. Conversely, companies with elastic demand (e.g., discretionary consumer goods) are more sensitive to price changes and economic cycles. For businesses, knowing their product's elasticity guides pricing strategies.</p>
@@ -302,10 +289,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Incentives: Driving Behavior</h3>
                         <p class="text-gray-600 mb-4">In economics, incentives are powerful mechanisms—whether rewards or penalties—that predictably influence individual and collective choices and behaviors. People generally respond to incentives by pursuing their self-interest.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-blue-600 hover:text-blue-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300">
+                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300 open">
                             <p class="text-sm text-gray-700 mb-3">These can be monetary (financial bonuses, tax credits) or non-monetary (social recognition). Profit is a primary economic incentive for entrepreneurs, driving innovation and risk-taking. However, poorly designed incentives can lead to "perverse outcomes," where actions taken to meet targets unintentionally create inefficiencies.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: Amazon's HQ2 Search (2017)</h4>
                             <p class="text-sm text-gray-700">Amazon announced a search for a second headquarters (HQ2), prompting cities across North America to offer billions in tax breaks and incentives. This fierce competition demonstrated how local and state governments use financial incentives to attract major businesses, hoping to spur job creation and economic development within their regions.</p>
@@ -316,10 +300,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Consumer Behavior: Utility Maximization</h3>
                         <p class="text-gray-600 mb-4">Utility maximization explains how consumers decide to allocate their limited income to achieve the greatest possible satisfaction or "utility" from the goods and services they consume. This is influenced by preferences, prices, and budget.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-blue-600 hover:text-blue-800">
-                            ▼ Learn More & Real-World Example
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300">
+                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300 open">
                             <p class="text-sm text-gray-700 mb-3">Consumers aim for maximum benefit. **Total utility** is overall satisfaction, while **marginal utility** is additional satisfaction from one more unit. The law of **diminishing marginal utility** means additional satisfaction decreases with more consumption, leading to diversified spending. Real-world choices are also influenced by "bounded rationality" and cognitive biases, not just pure logic.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Real-World Choice: Smartphone Purchase</h4>
                             <p class="text-sm text-gray-700">Consider a consumer buying a new smartphone. They might compare a high-end model with a top-tier camera and processor to a mid-range model that's more affordable but has slightly fewer features. Even if the high-end phone offers objectively more "utility," the consumer might choose the mid-range one because the *additional* utility from the top-tier features doesn't justify the *additional* cost for their budget. This demonstrates how individuals make trade-offs to maximize their satisfaction within their financial constraints.</p>
@@ -332,10 +313,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg lg:col-span-2">
                         <h3 class="font-header text-3xl font-semibold mb-3">Firm Behavior: Production, Costs & Profit Maximization</h3>
                         <p class="text-gray-600 mb-4">Businesses aim to maximize profit by strategically increasing revenue and reducing costs. This involves understanding production functions, various cost types, and finding the optimal output level where marginal revenue equals marginal cost.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-blue-600 hover:text-blue-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300">
+                        <div class="learn-more-content mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Production Functions** describe the relationship between inputs (labor, capital) and output. Firms analyze **costs** (fixed, variable, total, marginal) to determine efficiency. **Profit maximization** occurs where marginal revenue (MR) from selling one more unit equals marginal cost (MC) of producing it. For investors, consistently balancing revenue growth with cost control indicates financial health and potential.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: Toyota's Lean Manufacturing</h4>
                             <p class="text-sm text-gray-700">Toyota revolutionized the automotive industry with its "lean manufacturing" system, focusing on minimizing waste and maximizing efficiency in every step of production. By optimizing inventory, reducing defects, and streamlining processes, Toyota significantly lowered its production costs while maintaining high quality, a prime example of how cost reduction strategies contribute to profit maximization.</p>
@@ -399,10 +377,7 @@
                         <div class="chart-container">
                             <canvas id="gdpChart"></canvas>
                         </div>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-green-600 hover:text-green-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-green-50 rounded-lg border-l-4 border-green-300">
+                        <div class="learn-more-content mt-2 p-4 bg-green-50 rounded-lg border-l-4 border-green-300 open">
                             <p class="text-sm text-gray-700 mb-3">GDP is calculated by summing all spending by consumers, businesses, and the government, plus net exports. Nominal GDP can be misleading due to price changes, while Real GDP removes inflation's distortion, providing a clearer measure of growth in the volume of goods and services produced. GDP per capita indicates average living standards but doesn't reflect wealth distribution.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: China's Economic Transformation</h4>
                             <p class="text-sm text-gray-700">For decades, China's real GDP grew at an unprecedented rate, transforming it from a largely agrarian nation into a global economic powerhouse. This sustained expansion lifted hundreds of millions of people out of poverty and significantly increased its economic influence, demonstrating the powerful impact of consistent economic growth on a society.</p>
@@ -416,10 +391,7 @@
                         <div class="chart-container">
                             <canvas id="inflationChart"></canvas>
                         </div>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-green-600 hover:text-green-800">
-                           ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-green-50 rounded-lg border-l-4 border-green-300">
+                        <div class="learn-more-content mt-2 p-4 bg-green-50 rounded-lg border-l-4 border-green-300 open">
                             <p class="text-sm text-gray-700 mb-3">Inflation typically stems from **Demand-Pull** (too much demand), **Cost-Push** (rising production costs), or **Inflation Expectations** (beliefs about future prices). Key metrics include CPI (for consumers), Producer Price Index (PPI, for producers), and Personal Consumption Expenditures (PCE, favored by the Fed). Understanding these is crucial for assessing purchasing power and adjusting investment strategies.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: Hyperinflation in Weimar Germany (1920s)</h4>
                             <p class="text-sm text-gray-700">In the 1920s, Germany experienced hyperinflation so severe that prices doubled every few days. People needed wheelbarrows full of banknotes to buy bread, and money became virtually worthless. This historical event serves as a stark warning of how uncontrolled inflation can destroy savings and destabilize an entire society.</p>
@@ -430,10 +402,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Unemployment: Beyond the Headline</h3>
                         <p class="text-gray-600 mb-4">Unemployment signifies individuals willing and able to work but unable to find a job. The headline unemployment rate is important, but a comprehensive understanding requires looking at different types of unemployment and other labor market metrics.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-green-600 hover:text-green-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-green-50 rounded-lg border-l-4 border-green-300">
+                        <div class="learn-more-content mt-2 p-4 bg-green-50 rounded-lg border-l-4 border-green-300 open">
                             <p class="text-sm text-gray-700 mb-3">Economists categorize unemployment into: **Natural Unemployment Rate (NRU)**, which includes **Frictional** (temporary transitions) and **Structural** (skill mismatch due to economic shifts), and **Cyclical Unemployment** (tied to the business cycle, rising during recessions). Other metrics like **Labor Force Participation Rate**, **Discouraged Workers**, and **Underemployment** provide a more nuanced picture of job market health.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: Decline of Coal Mining in the UK</h4>
                             <p class="text-sm text-gray-700">The shift away from coal as a primary energy source in the UK led to widespread structural unemployment in mining communities. Despite government efforts, many miners struggled to find new jobs due to a mismatch between their specialized skills and the demands of emerging industries, illustrating persistent structural unemployment.</p>
@@ -444,10 +413,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Aggregate Demand & Aggregate Supply: Economic Equilibrium</h3>
                         <p class="text-gray-600 mb-4">These concepts describe the total demand and supply for all goods and services in an economy, providing a macroeconomic model for understanding economic equilibrium, output, and price levels.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-green-600 hover:text-green-800">
-                            ▼ Learn More & Factors
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-green-50 rounded-lg border-l-4 border-green-300">
+                        <div class="learn-more-content mt-2 p-4 bg-green-50 rounded-lg border-l-4 border-green-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Aggregate Demand (AD)** is the total spending on goods and services in an economy (Consumption + Investment + Government Spending + Net Exports). The AD curve slopes downward. **Aggregate Supply (AS)** is the total output produced by an economy at various price levels. The short-run AS curve slopes upward, while the long-run AS curve is vertical (at full employment output). The intersection of AD and AS determines macroeconomic equilibrium. Shifts in either curve, caused by factors like changes in consumer confidence, technology, or input prices, lead to changes in output, employment, and price levels.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Importance for Policy:</h4>
                             <p class="text-sm text-gray-700">The AD-AS model is fundamental for analyzing the impact of fiscal and monetary policies. Expansionary policies aim to shift AD rightward to increase output and employment. Supply-side policies aim to shift AS rightward, boosting long-term growth without inflation. Understanding AD-AS helps predict economic outcomes and guide policy responses to recessions or inflation.</p>
@@ -483,10 +449,7 @@
                     <div id="fiscal-content" class="tab-content pt-6">
                         <h4 class="font-header text-2xl font-semibold mb-2">Government's Toolkit: Spending & Taxes</h4>
                         <p class="text-gray-600 mb-4">Fiscal policy is how the government influences the economy through its budget. It uses government spending and taxation to affect aggregate demand, employment, and economic growth.</p>
-                        <button class="learn-more-toggle w-full text-left font-semibold text-purple-600 hover:text-purple-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-purple-50 rounded-lg border-l-4 border-purple-300">
+                        <div class="learn-more-content mt-2 p-4 bg-purple-50 rounded-lg border-l-4 border-purple-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Expansionary Fiscal Policy** (lower taxes or increased spending) stimulates economic activity, typically used during recessions. **Contractionary Fiscal Policy** (higher taxes or reduced spending) cools down an overheating economy and combats inflation. The impact varies; short-term stimulus can be beneficial, but long-term fiscal sustainability (deficits) must be considered. Effects are not always evenly distributed across the population.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: US CARES Act (2020)</h4>
                             <p class="text-sm text-gray-700">In response to the severe economic shock of the COVID-19 pandemic, the US government passed the CARES Act, a massive fiscal stimulus package. This included direct payments to citizens, enhanced unemployment benefits, and aid to businesses, exemplifying expansionary fiscal policy aimed at mitigating economic downturn and boosting aggregate demand.</p>
@@ -498,10 +461,7 @@
                     <div id="monetary-content" class="tab-content pt-6 hidden">
                         <h4 class="font-header text-2xl font-semibold mb-2">Central Bank's Levers: Interest Rates & Money Supply</h4>
                         <p class="text-gray-600 mb-4">Monetary policy is managed by a nation's central bank (like the Federal Reserve) to promote maximum employment and maintain stable prices by controlling the money supply and credit conditions.</p>
-                        <button class="learn-more-toggle w-full text-left font-semibold text-purple-600 hover:text-purple-800">
-                           ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-purple-50 rounded-lg border-l-4 border-purple-300">
+                        <div class="learn-more-content mt-2 p-4 bg-purple-50 rounded-lg border-l-4 border-purple-300 open">
                             <p class="text-sm text-gray-700 mb-3">Key tools include adjusting **Interest Rates** (lowering stimulates, raising cools), **Reserve Requirements** (fraction of deposits banks must hold), and **Open Market Operations** (buying/selling government bonds). In crises, **Quantitative Easing (QE)** may be used. Monetary policy influences inflation, unemployment, exchange rates, and significantly impacts financial markets (stocks, bonds, real estate). It's a delicate balance (dual mandate) between employment and price stability.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: The Fed's Quantitative Easing (Post-2008)</h4>
                             <p class="text-sm text-gray-700">Following the 2008 financial crisis, with interest rates near zero, the US Federal Reserve implemented "Quantitative Easing" (QE), buying vast amounts of government bonds and other assets. This injected liquidity into the financial system, lowered long-term interest rates, and stimulated lending and investment, demonstrating a powerful form of expansionary monetary policy when conventional tools were insufficient.</p>
@@ -520,10 +480,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Evolution of Economic Thought</h3>
                         <p class="text-gray-600 mb-4">Economic ideas have evolved dramatically over centuries, reflecting societal changes and new understandings of markets and human behavior. Explore the major schools of thought that have shaped our understanding of economics.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-yellow-600 hover:text-yellow-800">
-                            ▼ Learn More & Key Thinkers
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-300">
+                        <div class="learn-more-content mt-2 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Mercantilism (16th-18th C.):** Emphasized accumulating wealth through trade surpluses, government control of economy. **Physiocrats (18th C.):** Believed wealth originated from agriculture. **Classical Economics (Adam Smith, David Ricardo - 18th-19th C.):** Advocated for free markets, invisible hand, comparative advantage. **Marxism (Karl Marx - 19th C.):** Critiqued capitalism, focused on class struggle, proposed socialism. **Neoclassical Economics (late 19th C.):** Introduced marginal utility, supply/demand curves, rational choice. **Keynesianism (John Maynard Keynes - 20th C.):** Advocated for government intervention to stabilize economies during recessions. **Monetarism (Milton Friedman - 20th C.):** Emphasized role of money supply in economic stability.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Impact on Policy:</h4>
                             <p class="text-sm text-gray-700">These different schools of thought have profoundly influenced government policies, from trade protectionism to fiscal stimulus, and continue to inform debates about the role of government in the economy. Understanding them provides context for current economic policies and challenges.</p>
@@ -534,10 +491,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Major Economic Events & Their Impact</h3>
                         <p class="text-gray-600 mb-4">Historical economic crises and transformations offer invaluable lessons on resilience, policy effectiveness, and market dynamics. Examine key events that reshaped global economies.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-yellow-600 hover:text-yellow-800">
-                            ▼ Learn More & Key Events
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-300">
+                        <div class="learn-more-content mt-2 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-300 open">
                             <p class="text-sm text-gray-700 mb-3">**The Great Depression (1929):** Deepest economic downturn in modern history, led to rise of Keynesian economics and increased government intervention. **Oil Crises (1970s):** Sudden oil price hikes caused stagflation, highlighting commodity dependence. **Asian Financial Crisis (1997):** Currency collapses and financial contagion in Southeast Asia, showing global financial interconnectedness. **Global Financial Crisis (2008):** Housing market collapse led to widespread financial instability and global recession, prompting massive policy responses. **COVID-19 Economic Shock (2020):** Pandemic caused unprecedented sudden contraction, leading to rapid fiscal and monetary stimulus. **Industrial Revolutions:** Transformed economies from agrarian to industrial, spurring urbanization, new technologies, and shifts in labor markets across centuries.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Lessons for Today:</h4>
                             <p class="text-sm text-gray-700">These events serve as rich case studies, teaching us about risk management, the importance of robust financial regulation, the interplay of domestic and international factors, and the role of policy in mitigating economic shocks. They inform current approaches to financial stability and crisis management.</p>
@@ -556,10 +510,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">International Trade: Benefits, Barriers & Agreements</h3>
                         <p class="text-gray-600 mb-4">International trade, the exchange of goods and services between countries, is driven by the principle of comparative advantage, where countries specialize in what they produce most efficiently and then trade.</p>
-                        <button class="learn-more-toggle w-full text-left font-semibold text-red-600 hover:text-red-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-red-50 rounded-lg border-l-4 border-red-300">
+                        <div class="learn-more-content mt-2 p-4 bg-red-50 rounded-lg border-l-4 border-red-300 open">
                             <p class="text-sm text-gray-700 mb-3">Benefits include access to diverse goods, risk sharing, economic growth, and the spread of knowledge. However, countries often use **trade barriers** (tariffs, quotas, subsidies, non-tariff barriers) to protect domestic industries, which generally reduce overall economic efficiency. **Trade agreements** (like WTO, FTAs) aim to reduce these barriers.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: The US-China Trade War (2018-2020)</h4>
                             <p class="text-sm text-gray-700">Starting in 2018, the U.S. and China imposed tariffs on each other's goods. This "trade war" increased prices for consumers and disrupted supply chains for businesses, demonstrating the real-world negative consequences of trade barriers.</p>
@@ -570,10 +521,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Exchange Rates: Currency Fluctuations</h3>
                         <p class="text-gray-600 mb-4">Exchange rates represent the value of one currency in comparison to another and are in constant flux. A currency is appreciating ("strengthening") when its exchange rate rises and depreciating ("weakening") when it falls.</p>
-                        <button class="learn-more-toggle w-full text-left font-semibold text-red-600 hover:text-red-800">
-                           ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-red-50 rounded-lg border-l-4 border-red-300">
+                        <div class="learn-more-content mt-2 p-4 bg-red-50 rounded-lg border-l-4 border-red-300 open">
                             <p class="text-sm text-gray-700 mb-3">Fluctuations are influenced by **interest rate differentials** (higher rates attract capital), **inflation differentials** (lower inflation strengthens currency), **trade balances** (surpluses strengthen, deficits weaken), and **market expectations**. Currency movements impact trade (stronger currency makes exports expensive), investment (affects foreign earnings), and tourism costs.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: The Swiss Franc Surge (2015)</h4>
                             <p class="text-sm text-gray-700">In 2015, the Swiss National Bank suddenly allowed the Franc to appreciate. This made Swiss exports and tourism much more expensive overnight, hurting the local economy and showing how powerful currency movements can be.</p>
@@ -584,10 +532,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Balance of Payments: Global Transactions</h3>
                         <p class="text-gray-600 mb-4">The Balance of Payments (BOP) is a comprehensive record of all economic transactions between a country and the rest of the world over a specific period. It comprises the current account and the capital account.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-red-600 hover:text-red-800">
-                            ▼ Learn More & Components
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-red-50 rounded-lg border-l-4 border-red-300">
+                        <div class="learn-more-content mt-2 p-4 bg-red-50 rounded-lg border-l-4 border-red-300 open">
                             <p class="text-sm text-gray-700 mb-3">The **Current Account** records trade in goods and services, net income from abroad, and net transfers. A current account deficit (imports > exports) often indicates that a country is borrowing from abroad. The **Capital Account** (also called Financial Account) records international capital flows, such as foreign direct investment, portfolio investment, and changes in central bank reserves. By accounting identity, the current account balance should theoretically equal the capital account balance (with opposite signs). Large persistent deficits or surpluses can indicate macroeconomic imbalances and influence exchange rates and foreign policy.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Geopolitical Relevance:</h4>
                             <p class="text-sm text-gray-700">Persistent current account imbalances can lead to trade tensions and influence a country's diplomatic leverage. Nations with large current account deficits may be reliant on foreign capital, potentially exposing them to financial vulnerabilities if capital flows reverse. Conversely, countries with large surpluses may face pressure to rebalance their economies.</p>
@@ -598,10 +543,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">International Economic Institutions: Global Governance</h3>
                         <p class="text-gray-600 mb-4">Organizations like the IMF, World Bank, and WTO play crucial roles in facilitating global economic stability, development, and trade by providing financial assistance, setting rules, and fostering cooperation.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-red-600 hover:text-red-800">
-                            ▼ Learn More & Their Roles
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-red-50 rounded-lg border-l-4 border-red-300">
+                        <div class="learn-more-content mt-2 p-4 bg-red-50 rounded-lg border-l-4 border-red-300 open">
                             <p class="text-sm text-gray-700 mb-3">**International Monetary Fund (IMF):** Fosters global monetary cooperation, secures financial stability, facilitates international trade, promotes high employment and sustainable economic growth, and reduces poverty. Provides loans to countries facing balance of payments problems. **World Bank:** Provides financial and technical assistance to developing countries to reduce poverty and support development. **World Trade Organization (WTO):** Regulates international trade and provides a framework for negotiating trade agreements and resolving disputes.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Geopolitical Relevance:</h4>
                             <p class="text-sm text-gray-700">These institutions serve as platforms for multilateral economic governance, influencing global policy debates and crisis management. Their lending conditions can impact national sovereignty, and their rules can shape trade relationships between nations. Understanding their roles is key to comprehending the geopolitical landscape of global finance and trade.</p>
@@ -612,10 +554,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg lg:col-span-2">
                         <h3 class="font-header text-3xl font-semibold mb-3">The Interconnected World: Global Impacts</h3>
                         <p class="text-gray-600 mb-4">The modern global economy is characterized by a complex and ever-deeper web of economic relationships. Nations are linked through extensive trade, investment flows, and the movement of goods, services, and labor.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-red-600 hover:text-red-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-red-50 rounded-lg border-l-4 border-red-300">
+                        <div class="learn-more-content mt-2 p-4 bg-red-50 rounded-lg border-l-4 border-red-300 open">
                             <p class="text-sm text-gray-700 mb-3">This interdependence means economic shifts or disruptions (e.g., natural disasters, political instability) in one nation can rapidly impact others through supply chain integration, capital flows, and reduced demand. While globalization offers benefits like access to new markets and efficiency, it also brings increased vulnerability to global crises and raises concerns about cultural erosion and equity.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: The 2011 Tōhoku Earthquake and Global Supply Chains</h4>
                             <p class="text-sm text-gray-700">The devastating 2011 earthquake and tsunami in Japan disrupted critical supply chains for industries worldwide, particularly in automotive and electronics. Factories in Japan that produced specialized components were shut down, causing production delays and shortages for companies in other countries, even those far from Japan. This event highlighted the fragility and deep integration of modern global supply chains and how a localized disaster can have widespread economic impacts.</p>
@@ -634,10 +573,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Financial Markets: Where Capital Flows</h3>
                         <p class="text-gray-600 mb-4">Financial markets facilitate the flow of capital, connecting savers with borrowers. They are crucial for economic growth and provide opportunities for investment across various asset classes.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-indigo-600 hover:text-indigo-800">
-                            ▼ Learn More & Types
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300">
+                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Stock Markets:** Where company shares are bought and sold, representing ownership. **Bond Markets:** Where debt securities are traded, allowing governments and corporations to borrow. **Commodity Markets:** Trade raw materials (e.g., oil, gold, agricultural products). **Derivatives Markets:** Trade financial contracts whose value is derived from an underlying asset (e.g., futures, options). These markets enable price discovery, liquidity, and risk transfer, crucial for both individual investors and large institutions.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Understanding these markets is fundamental for investors to choose appropriate asset classes for their portfolio, assess liquidity, and understand the various ways capital is deployed and traded in the global economy.</p>
@@ -648,10 +584,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Valuation Principles: What's It Really Worth?</h3>
                         <p class="text-gray-600 mb-4">Valuation is the process of determining the current worth of an asset or a company. Key principles help investors identify undervalued assets and make informed investment decisions.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-indigo-600 hover:text-indigo-800">
-                            ▼ Learn More & Methods
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300">
+                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Discounted Cash Flow (DCF):** Values an asset based on the present value of its expected future cash flows. Requires forecasting future cash flows and discounting them using a discount rate (reflecting risk). **Relative Valuation:** Compares the asset to similar assets by looking at valuation multiples (e.g., Price-to-Earnings, Enterprise Value-to-EBITDA). Assumes similar assets should trade at similar multiples. Other methods include asset-based valuation and dividend discount models.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">These principles form the backbone of fundamental analysis for investors. Accurately valuing assets is crucial for identifying investment opportunities, assessing risk, and determining appropriate entry and exit points for investments.</p>
@@ -662,10 +595,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Risk & Return: The Investment Trade-off</h3>
                         <p class="text-gray-600 mb-4">In investing, risk and return are inextricably linked: higher potential returns typically come with higher levels of risk. Managing this trade-off is central to portfolio construction.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-indigo-600 hover:text-indigo-800">
-                            ▼ Learn More & Strategies
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300">
+                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Risk** is the probability of losing money or achieving less than expected returns. **Return** is the gain or loss on an investment. **Diversification** is a key strategy to manage risk by spreading investments across various asset classes, industries, and geographies, reducing unsystematic (company-specific) risk. **Portfolio Theory** (e.g., Modern Portfolio Theory) suggests that investors can optimize their portfolios by selecting a mix of assets that provides the highest expected return for a given level of risk.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">A robust understanding of risk and return is vital for investors to align their portfolio with their individual risk tolerance and financial goals. Effective diversification can enhance returns while minimizing overall portfolio volatility.</p>
@@ -676,10 +606,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Behavioral Economics in Investing: Mind Over Market</h3>
                         <p class="text-gray-600 mb-4">Behavioral economics combines insights from psychology and economics to explain how psychological biases and cognitive shortcuts influence real-world financial decision-making, often leading to irrational choices.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-indigo-600 hover:text-indigo-800">
-                            ▼ Learn More & Common Biases
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300">
+                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300 open">
                             <p class="text-sm text-gray-700 mb-3">Common biases include **Confirmation Bias** (seeking info that confirms existing beliefs), **Loss Aversion** (fear of losses stronger than desire for gains), **Herding** (following crowd behavior), **Overconfidence Bias** (overestimating one's abilities), and **Anchoring** (over-relying on initial information). These biases can lead to irrational investment decisions, such as buying into market bubbles or selling during crashes.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Awareness of behavioral biases is crucial for investors to avoid common pitfalls, manage emotional responses, and develop more disciplined investment strategies. Understanding how psychology impacts markets can also offer insights into market anomalies and investor sentiment.</p>
@@ -690,10 +617,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg lg:col-span-2">
                         <h3 class="font-header text-3xl font-semibold mb-3">Alternative Investments: Beyond Stocks & Bonds</h3>
                         <p class="text-gray-600 mb-4">Alternative investments are asset classes that fall outside traditional categories like publicly traded stocks, bonds, and cash. They can offer diversification, potentially higher returns, and exposure to emerging trends but often come with higher risk and lower liquidity.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-indigo-600 hover:text-indigo-800">
-                            ▼ Learn More & Types
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300">
+                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300 open">
                             <p class="text-sm text-gray-700 mb-3">Types include **Real Estate** (direct property, REITs), **Private Equity** (investing in private companies, often through buyouts), **Venture Capital** (funding startups), **Hedge Funds** (diverse strategies, high fees), and **Cryptocurrencies** (e.g., Bitcoin, Ethereum – digital assets using blockchain technology). These investments typically have lower correlation with traditional assets, offering diversification benefits. However, they are often less regulated, illiquid, and require higher investment minimums.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Future Trends & Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Alternative investments are becoming increasingly accessible and important for diversification. Cryptocurrencies, in particular, represent a significant emerging asset class with potential to reshape finance, though they carry high volatility and regulatory uncertainty. Understanding these alternatives is key for anticipating future financial market evolution and diversifying a portfolio effectively.</p>
@@ -712,10 +636,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Resource Economics: Power & Scarcity</h3>
                         <p class="text-gray-600 mb-4">The control and availability of critical resources like energy, water, and rare earth minerals have profound economic and geopolitical implications, driving conflicts, trade policies, and technological competition.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-orange-600 hover:text-orange-800">
-                            ▼ Learn More & Geopolitical Significance
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-300">
+                        <div class="learn-more-content mt-2 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Energy:** Dependence on fossil fuels creates geopolitical leverage and vulnerability. Transition to renewables impacts energy security and global power dynamics. **Water:** Growing scarcity, particularly in arid regions, is a source of conflict and international cooperation. **Rare Earth Minerals:** Essential for high-tech industries (electronics, EVs, defense), their concentrated supply creates geopolitical choke points and drives competition for access.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Future Trends & Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Resource security is a growing geopolitical concern. Investing in renewable energy, water management technologies, and diversification of critical mineral supply chains addresses both sustainability goals and strategic economic resilience. Geopolitical tensions over resources can lead to price volatility and supply disruptions, requiring active monitoring by investors.</p>
@@ -726,10 +647,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Development Economics: Growth, Poverty & Prosperity</h3>
                         <p class="text-gray-600 mb-4">This field studies how economies grow and evolve in developing countries, analyzing factors contributing to poverty, inequality, and prosperity, and exploring policy interventions to foster sustainable development.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-orange-600 hover:text-orange-800">
-                            ▼ Learn More & Geopolitical Implications
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-300">
+                        <div class="learn-more-content mt-2 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-300 open">
                             <p class="text-sm text-gray-700 mb-3">Key areas include human capital development (education, health), infrastructure investment, institutional quality (governance, rule of law), access to finance, and sustainable resource management. Challenges include poverty traps, inequality, conflict, and climate vulnerability. Policies often focus on aid, trade, debt relief, and structural reforms.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Geopolitical Relevance:</h4>
                             <p class="text-sm text-gray-700">Economic disparities between nations can fuel migration, instability, and geopolitical tensions. Successful development can shift global power balances, as seen with the rise of emerging economies. Understanding development economics informs international aid, trade policy, and foreign relations, and reveals investment opportunities in fast-growing frontier markets, despite higher risks.</p>
@@ -740,10 +658,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Economic Sanctions: Tools of Influence</h3>
                         <p class="text-gray-600 mb-4">Economic sanctions are coercive measures imposed by one or more countries against another, or against specific individuals or entities, to achieve foreign policy or national security objectives. They aim to alter behavior without military force.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-orange-600 hover:text-orange-800">
-                            ▼ Learn More & Effectiveness
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-300">
+                        <div class="learn-more-content mt-2 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-300 open">
                             <p class="text-sm text-gray-700 mb-3">Types include trade embargoes, asset freezes, travel bans, financial restrictions, and technology export controls. Effectiveness varies widely; they can impose significant economic costs on target regimes but also cause humanitarian crises and unintended consequences for third-party nations. Factors influencing success include comprehensiveness, multilateral support, and clear objectives.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Geopolitical & Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Sanctions are increasingly used as a geopolitical tool, impacting global trade flows, commodity prices, and financial markets. Investors must be aware of sanctions regimes as they can create significant risks for companies with exposure to targeted countries or sectors, while also creating opportunities for alternative suppliers or domestic industries.</p>
@@ -754,10 +669,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Rise of New Economic Powers: Shifting Global Order</h3>
                         <p class="text-gray-600 mb-4">The rapid economic growth and increasing global influence of emerging economies like China and India are fundamentally reshaping the global economic and geopolitical landscape, challenging traditional power structures.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-orange-600 hover:text-orange-800">
-                            ▼ Learn More & Impact
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-300">
+                        <div class="learn-more-content mt-2 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-300 open">
                             <p class="text-sm text-gray-700 mb-3">China's growth has been driven by manufacturing, exports, and investment, while India's growth increasingly relies on services and domestic consumption. Their rise is shifting global manufacturing, consumption, and financial flows, leading to new trade patterns, infrastructure initiatives (e.g., BRI), and increased competition for resources and influence. This creates opportunities for new global partnerships and challenges for existing international governance structures.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Future Trends & Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">The continued ascent of these powers will dictate future global economic growth and geopolitical stability. Investors must understand their domestic policies, regulatory environments, and trade relations to identify opportunities in their massive consumer markets and growing industries, while navigating potential geopolitical risks and competition with established markets.</p>
@@ -768,10 +680,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg lg:col-span-2">
                         <h3 class="font-header text-3xl font-semibold mb-3">Technology's Geopolitical & Economic Impact: AI, Automation, Cybersecurity</h3>
                         <p class="text-gray-600 mb-4">Emerging technologies like Artificial Intelligence (AI), advanced automation, and cybersecurity are not just economic drivers but also critical instruments of national power and geopolitical competition.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-orange-600 hover:text-orange-800">
-                            ▼ Learn More & Implications
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-300">
+                        <div class="learn-more-content mt-2 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-300 open">
                             <p class="text-sm text-gray-700 mb-3">**AI:** Drives productivity gains, but also raises ethical concerns, job displacement fears, and fuels a global race for AI supremacy, impacting military capabilities and intelligence. **Automation:** Reshapes global supply chains and labor markets, affecting industrial competitiveness and economic resilience. **Cybersecurity:** A critical national security issue, influencing economic stability through protection of vital infrastructure, intellectual property, and financial systems. Cyberattacks can lead to massive economic disruption and geopolitical retaliation.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Future Trends & Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">The development and control of these technologies are central to future economic prosperity and geopolitical influence. Investments in AI, automation, and cybersecurity are not just growth plays but also strategic national imperatives. Companies leading in these areas may offer significant long-term value, but also face increased regulatory scrutiny and geopolitical risks related to data sovereignty and national security.</p>
@@ -790,10 +699,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Demographic Shifts: Aging, Migration & Workforces</h3>
                         <p class="text-gray-600 mb-4">Global demographic changes, including aging populations in developed nations and youth bulges in developing ones, alongside evolving migration patterns, will profoundly impact labor markets, consumption, and social welfare systems.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-pink-600 hover:text-pink-800">
-                            ▼ Learn More & Economic Consequences
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300">
+                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Aging Populations:** Lead to labor shortages, increased healthcare/pension costs, and potentially slower innovation. **Youth Bulges:** Can provide a demographic dividend if well-educated and employed, but risk instability if unemployed. **Migration:** Can alleviate labor shortages, increase diversity, but also pose social integration challenges and strain public services. These shifts influence consumption patterns (e.g., demand for healthcare services for seniors), labor force participation rates, and government fiscal burdens.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Investors should consider sectors catering to aging populations (healthcare, elder care, robotics), youth-driven consumption (tech, entertainment), and automation to offset labor shortages. Companies with adaptable business models and diversified workforces will be better positioned.</p>
@@ -804,10 +710,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Climate Change Economics: Costs & Opportunities</h3>
                         <p class="text-gray-600 mb-4">Climate change poses significant economic risks (e.g., extreme weather, resource scarcity) but also presents vast investment opportunities in decarbonization, adaptation, and green technologies.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-pink-600 hover:text-pink-800">
-                            ▼ Learn More & Green Investments
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300">
+                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300 open">
                             <p class="text-sm text-gray-700 mb-3">Economic costs include direct damages, reduced agricultural productivity, health impacts, and disruptions to supply chains. Opportunities lie in **green investments** in renewable energy (solar, wind), electric vehicles, sustainable agriculture, carbon capture technologies, and climate-resilient infrastructure. Policy tools like carbon taxes and cap-and-trade systems are designed to incentivize these transitions. The transition creates new industries and jobs but also displaces old ones.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Climate change is a long-term investment theme. Portfolios should consider risks from climate impacts and regulations, and seek opportunities in clean energy, sustainable finance, and companies innovating for a low-carbon future. ESG (Environmental, Social, Governance) investing is gaining traction, integrating these factors into financial decision-making.</p>
@@ -818,10 +721,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Future of Work: Automation, Gig Economy & Skills</h3>
                         <p class="text-gray-600 mb-4">The nature of work is evolving rapidly due to automation, the rise of the gig economy, and the increasing demand for new skills. This transformation requires adaptation from workers, businesses, and policymakers.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-pink-600 hover:text-pink-800">
-                            ▼ Learn More & Implications
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300">
+                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Automation & AI:** Will continue to displace routine tasks but create new ones requiring uniquely human skills (creativity, critical thinking, emotional intelligence). **Gig Economy:** Offers flexibility but often lacks traditional benefits/protections. **Skills Gaps:** Demand for digital, analytical, and "soft" skills will grow, requiring continuous reskilling/upskilling. Policymakers face challenges in ensuring adequate social safety nets and education systems.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Invest in companies enabling the future of work (e.g., AI/robotics, online learning platforms, gig economy enablers) and those focusing on human-centric services that resist automation. Companies prioritizing workforce training and adaptable business models are better positioned for success.</p>
@@ -832,10 +732,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Global Debt Levels: Sustainability & Stability</h3>
                         <p class="text-gray-600 mb-4">Rising public and private debt levels globally, exacerbated by recent crises and low interest rates, pose significant risks to future economic stability, potentially limiting governments' ability to respond to future shocks.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-pink-600 hover:text-pink-800">
-                            ▼ Learn More & Implications
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300">
+                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300 open">
                             <p class="text-sm text-gray-700 mb-3">High debt can lead to higher interest payments (crowding out other spending), increased inflation risk, and potential sovereign debt crises. It can also limit fiscal space for future stimulus. However, arguments exist that debt sustainability is more important than absolute levels, especially with low interest rates. For citizens, high debt means potential future tax burdens or reduced public services. For investors, it impacts bond yields, currency strength, and country risk ratings.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Monitor country debt-to-GDP ratios and fiscal trajectories. High debt can signal higher risk for government bonds and domestic equities, particularly if coupled with rising interest rates. Diversification across countries and asset classes helps mitigate exposure to specific sovereign debt risks.</p>
@@ -846,10 +743,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">CBDCs & Blockchain: Reshaping Finance</h3>
                         <p class="text-gray-600 mb-4">Central Bank Digital Currencies (CBDCs) and blockchain technology have the potential to fundamentally reshape financial systems, payments, and central banking, offering new efficiencies but also new regulatory and privacy challenges.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-pink-600 hover:text-pink-800">
-                            ▼ Learn More & Implications
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300">
+                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300 open">
                             <p class="text-sm text-gray-700 mb-3">**CBDCs:** Digital form of a country's fiat currency, issued and backed by the central bank. Could offer faster, cheaper payments, financial inclusion, and more direct monetary policy tools. Raises privacy and disintermediation concerns for commercial banks. **Blockchain:** Distributed ledger technology underlying cryptocurrencies. Offers transparency, security, and immutability. Potential applications beyond crypto include supply chain management, digital identity, and smart contracts, revolutionizing various industries.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Monitor regulatory developments around CBDCs, which could impact traditional banking and payment systems. Invest in companies developing blockchain infrastructure, applications, and those leveraging these technologies for efficiency gains. Be aware of the high volatility and regulatory risks associated with private cryptocurrencies, distinct from official CBDCs.</p>
@@ -860,10 +754,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg lg:col-span-2">
                         <h3 class="font-header text-3xl font-semibold mb-3">Deglobalization vs. Reglobalization: The Shifting Tide</h3>
                         <p class="text-gray-600 mb-4">After decades of increasing global economic integration, recent geopolitical tensions, supply chain disruptions, and protectionist sentiments suggest a potential shift towards "deglobalization" or a new form of "reglobalization" based on resilient regional blocs.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-pink-600 hover:text-pink-800">
-                            ▼ Learn More & Implications
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300">
+                        <div class="learn-more-content mt-2 p-4 bg-pink-50 rounded-lg border-l-4 border-pink-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Deglobalization:** Retreat from global trade and investment, focusing on domestic production and regional supply chains. Drivers include geopolitical risks, national security concerns, and desires for economic self-sufficiency. **Reglobalization/Reshoring/Friendshoring:** Not a complete halt to globalization, but a restructuring towards shorter, more resilient, and politically aligned supply chains. May lead to higher costs but increased security. Implications include shifts in manufacturing hubs, trade patterns, and increased regional economic blocs.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Investment Relevance:</h4>
                             <p class="text-sm text-gray-700">Companies with diversified and adaptable supply chains will be more resilient. Opportunities may arise in domestic manufacturing, logistics, and companies serving regional blocs. Conversely, firms heavily reliant on long, undiversified global supply chains or exposed to high geopolitical risk may face headwinds. This trend influences long-term investment strategies related to international market exposure.</p>
@@ -882,10 +773,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Environmental Economics: Growth & Sustainability</h3>
                         <p class="text-gray-600 mb-4">This field examines the relationship between economic activities and the natural environment, focusing on achieving "sustainable development" by balancing economic growth with environmental protection.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-indigo-600 hover:text-indigo-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300">
+                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300 open">
                             <p class="text-sm text-gray-700 mb-3">Key concepts include **Externalities** (unintended costs/benefits, e.g., pollution), **Resource Depletion**, and **Tragedy of the Commons**. Economists advocate for **market-based solutions** like Pigouvian taxes (carbon taxes), cap and trade systems, and subsidies for green technologies to price environmental impacts and incentivize sustainability. The **circular economy** model minimizes waste and maximizes resource use.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: The European Union Emissions Trading System (EU ETS)</h4>
                             <p class="text-sm text-gray-700">The EU ETS is the world's largest carbon market, operating as a "cap and trade" system. It sets a cap on the total amount of greenhouse gases that can be emitted by participating industries. Companies receive or buy emission allowances, which they can trade with each other. This system incentivizes businesses to reduce their emissions cost-effectively, as those who reduce more can sell their excess allowances, while those who find it harder to reduce must buy allowances. It's a leading example of a market-based solution to climate change.</p>
@@ -896,10 +784,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Technology & Labor: Impact of Automation</h3>
                         <p class="text-gray-600 mb-4">Technological advancements, especially automation and AI, are profoundly reshaping labor markets. This presents both opportunities for increased productivity and challenges for employment and income distribution.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-indigo-600 hover:text-indigo-800">
-                            ▼ Learn More & Case Study
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300">
+                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300 open">
                             <p class="text-sm text-gray-700 mb-3">Automation leads to a **Displacement Effect** (machines replacing humans) and a **Reinstatement Effect** (creating new complementary tasks). It also has a **price-productivity effect** by reducing costs. Impacts vary by gender, occupation, and education; higher education often offers protection. This highlights the importance of lifelong learning and adaptable skills for citizens, and investment opportunities in automation solutions for investors.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Case Study: Automation in Automotive Manufacturing</h4>
                             <p class="text-sm text-gray-700">The automotive industry has been a pioneer in adopting industrial robots for tasks like welding, painting, and assembly. While this automation has dramatically increased productivity and reduced production costs for car manufacturers, it has also led to a significant displacement of human labor in routine manual operations. This has resulted in job losses for some blue-collar workers, illustrating the displacement effect of technology on labor markets, even as new jobs in robot maintenance and programming emerge.</p>
@@ -910,10 +795,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg">
                         <h3 class="font-header text-3xl font-semibold mb-3">Minimum Wage: Debates & Effects</h3>
                         <p class="text-gray-600 mb-4">The minimum wage is a legally mandated lowest hourly wage. Its economic effects are a subject of ongoing debate, with arguments for and against its increase.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-indigo-600 hover:text-indigo-800">
-                            ▼ Learn More & Considerations
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300">
+                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Arguments against** (conventional theory): suggest reduced employment/job losses, increased automation, higher prices/inflation, distorted labor signals, and disproportionate impact on small businesses. **Arguments in favor** (advocates): increased employee morale/retention, boost to economic growth, poverty reduction, and improved work ethic. Empirical evidence is mixed, depending on context. For citizens, it's a societal choice balancing efficiency and equity. For investors, it impacts profitability and strategy in labor-intensive sectors.</p>
                         </div>
                     </div>
@@ -922,10 +804,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg lg:col-span-2">
                         <h3 class="font-header text-3xl font-semibold mb-3">Critical Evaluation of Economic Information</h3>
                         <p class="text-gray-600 mb-4">In an era of abundant information, critically evaluating economic data, reports, and public discourse is an essential skill. Economic reporting and analysis can be influenced by various biases and are susceptible to common data interpretation pitfalls.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-indigo-600 hover:text-indigo-800">
-                            ▼ Learn More & Pitfalls
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300">
+                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300 open">
                             <p class="text-sm text-gray-700 mb-3">To identify **biases**, check funding sources, author affiliations, reliance on biased sources, and look for agenda-driven content. Beware of **confirmation bias**. Common **pitfalls** include ignoring outliers, overreliance on the mean in skewed data, misunderstanding sample vs. population mean, failing to consider data variability, and limitations of economic models. For citizens, develop data literacy and healthy skepticism. For investors, it's paramount for robust risk management.</p>
                         </div>
                     </div>
@@ -934,10 +813,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-lg lg:col-span-2">
                         <h3 class="font-header text-3xl font-semibold mb-3">Personal Finance & Investing Strategies</h3>
                         <p class="text-gray-600 mb-4">Economic principles offer invaluable frameworks for navigating personal finance and developing effective investment strategies that align with individual financial goals and priorities.</p>
-                        <button class="learn-more-toggle mt-4 w-full text-left font-semibold text-indigo-600 hover:text-indigo-800">
-                            ▼ Learn More & Key Strategies
-                        </button>
-                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300">
+                        <div class="learn-more-content mt-2 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-300 open">
                             <p class="text-sm text-gray-700 mb-3">**Opportunity cost** is central: every financial decision involves trade-offs (e.g., debt repayment vs. investing). Leverage **incentives** like tax credits (e.g., Saver's Credit) for retirement savings. Align **investment strategies across the business cycle**, favoring growth assets in expansion and defensive assets in contraction. Protect your portfolio with **inflation hedges** (TIPS, real estate, commodities) and crucial **diversification** across asset classes and geographies to mitigate risks.</p>
                             <h4 class="font-semibold text-gray-800 mt-2">Conclusion & Recommendations</h4>
                             <p class="text-sm text-gray-700">Understanding economics provides a robust framework for interpreting news, engaging in public discourse, and making informed decisions. It's about choices, dynamic markets, policy impacts, global interconnectedness, and critical thinking. For citizens: cultivate literacy, scrutinize info, engage informed discourse, and recognize global ties. For investors: integrate macro/micro analysis, adopt a business cycle approach, prioritize diversification/risk management, understand policy impacts, and leverage incentives.</p>
@@ -1180,16 +1056,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- INTERACTIVITY LOGIC ---
 
-    document.querySelectorAll('.learn-more-toggle').forEach(button => {
-        button.addEventListener('click', () => {
-            const content = button.nextElementSibling;
-            content.classList.toggle('open');
-            button.textContent = content.classList.contains('open') ? '▲ Hide Details' : '▼ Learn More & Case Study';
-            if (button.textContent.includes('Considerations') || button.textContent.includes('Pitfalls') || button.textContent.includes('Key Strategies') || button.textContent.includes('Types') || button.textContent.includes('Factors') || button.textContent.includes('Methods') || button.textContent.includes('Thinkers') || button.textContent.includes('Events') || button.textContent.includes('Components') || button.textContent.includes('Roles') || button.textContent.includes('Implications')) {
-                 button.textContent = content.classList.contains('open') ? '▲ Hide Details' : button.textContent.replace('▲ Hide', '▼');
-            }
-        });
-    });
+    // Removed the event listener for learn-more-toggle as content is permanently expanded
+    // document.querySelectorAll('.learn-more-toggle').forEach(button => {
+    //     button.addEventListener('click', () => {
+    //         const content = button.nextElementSibling;
+    //         content.classList.toggle('open');
+    //         button.textContent = content.classList.contains('open') ? '▲ Hide Details' : '▼ Learn More & Case Study';
+    //         if (button.textContent.includes('Considerations') || button.textContent.includes('Pitfalls') || button.textContent.includes('Key Strategies') || button.textContent.includes('Types') || button.textContent.includes('Factors') || button.textContent.includes('Methods') || button.textContent.includes('Thinkers') || button.textContent.includes('Events') || button.textContent.includes('Components') || button.textContent.includes('Roles') || button.textContent.includes('Implications')) {
+    //              button.textContent = content.classList.contains('open') ? '▲ Hide Details' : button.textContent.replace('▲ Hide', '▼');
+    //         }
+    //     });
+    // });
 
     const structureTable = document.getElementById('market-structure-table');
     const structureDetails = document.getElementById('market-structure-details');
